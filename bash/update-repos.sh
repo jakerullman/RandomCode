@@ -2,7 +2,7 @@
 
 CUR_DIR=$(pwd)
 
-echo -e "\n\033[1mPulling in the latest changes for all repositories...\033[0m\n"
+echo -e "\n\033[1mPulling in the latest changes for all repositories...\033[0m"
 
 for i in $(find . -name ".git" | cut -c 3-); do
 	echo -e "";
